@@ -17,8 +17,14 @@ body {
 }
 
 h1 {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Special Elite', cursive;
     font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 24px;
     text-align: center;
 }
 
