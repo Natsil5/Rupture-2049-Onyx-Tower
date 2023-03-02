@@ -1,0 +1,94 @@
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles généraux */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles pour la navigation */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  /* Styles pour les liens */
+  main ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main ul li {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  main ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  main ul li a img {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  main ul li a h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  main ul li a p {
+    margin: 0;
+    font-size: 0.8em;
+  }
+
+  main {
+    background-image: url(assets/img/fond.webp);
+    background-size: cover;
+  }
+  
